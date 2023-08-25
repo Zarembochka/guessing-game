@@ -8,9 +8,6 @@ class GuessingGame {
     }
 
     guess() {
-        if (this.min === this.max) {
-            return this.max;
-        }
         this.value = Math.round((this.min + this.max) / 2);
         return this.value;
     }
